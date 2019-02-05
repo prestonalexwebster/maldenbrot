@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            display: flex;
+        }
+
+        .controls{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<div class='container'>
+    <canvas width='600' height='600'></canvas>
+    <div class='controls'>
+        <input type='text' disabled id='x0'>
+        <input type='text' disabled id='y0'>
+        <input type='text' disabled id='k'>
+    </div>
+</div>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
